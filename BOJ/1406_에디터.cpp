@@ -30,7 +30,6 @@ int main(){
         else if(oper=='B'){
             if(iter==editor.begin()) continue;
             iter--;
-            cout<<"erase "<<*iter<<endl;
             iter = editor.erase(iter);
         }
 
