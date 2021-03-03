@@ -17,9 +17,7 @@ int main(){
             if(test[i]%c==0)
                 ans += test[i]/c;
             else
-            {
                 ans+= test[i]/c+1;
-            }
             
         }
     }
