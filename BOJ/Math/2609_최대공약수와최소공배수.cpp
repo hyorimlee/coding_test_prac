@@ -8,7 +8,7 @@ int main(){
     for(;gcf>1;gcf--){
         if(x%gcf==0&&y%gcf==0) break;
     }
-    cout<<gcf<<" ";
+    cout<<gcf<<endl;
     for(;lcm<x*y;lcm++){
         if(lcm%x==0&&lcm%y==0) break;
     }
